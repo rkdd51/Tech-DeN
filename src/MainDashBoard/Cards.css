@@ -1,0 +1,18 @@
+.cardMain{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    
+    
+   
+}
+.link{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.delete-icon{
+    margin-left: 225px;
+    cursor: pointer;
+}

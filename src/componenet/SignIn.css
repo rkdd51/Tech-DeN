@@ -1,0 +1,140 @@
+.img {
+  display: block;
+  float: left;
+  position: relative;
+  width: 50%;
+  height: 70%;
+  padding: 10px 30px;
+  overflow: hidden;
+}
+img {
+  border-radius: 7px;
+  margin-top: 30px;
+  height: 614px;
+  width: 559px;
+}
+.form_signIn {
+  width: 50%;
+  height: 80vh;
+  float: right;
+  box-shadow: #8181a5;
+}
+.form_signIn form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 410px;
+  height: 550px;
+  margin: 50px 150px;
+  text-align: left;
+  /* background-color: red; */
+}
+
+.form_signIn h2 {
+  position: absolute;
+  margin-bottom: 450px;
+  margin-left: 50px;
+  height: auto;
+  width: 300px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.remember_me {
+  display: inline-block;
+  position: absolute;
+  margin-left: 22px;
+  margin-top: 165px;
+  font-size: 15px;
+  color: #8181a5;
+}
+
+.forget_psd {
+  position: absolute;
+  margin-left: 282px;
+  margin-top: 109px;
+  display: inline-block;
+  margin-bottom: -60px;
+  font-size: 15px;
+  color: #8181a5;
+}
+.signIn_btn {
+  margin-left: 150px;
+  margin-top: 90px;
+  width: 100%;
+  background-color: #362bb2;
+  border: 2px solid #362bb2;
+  transform: translate(-36.5%);
+  color: white;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: black;
+  font-size: 12px;
+  padding: 20px 0 12px 0;
+  outline: none;
+}
+
+input {
+  color: #000;
+  font-size: 14px;
+  padding: 7px 0 10px 0;
+  opacity: 100%;
+  outline: none;
+  margin-bottom: -7px;
+  /* text-decoration: underline; */
+}
+
+#checkbox {
+  position: absolute;
+  margin-top: 160px;
+}
+.signIn_txt {
+  border: 10px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #8181a5;
+}
+
+hr {
+  border: 0.01px solid #d5d5db;
+}
+
+.signIn_btn_ggl {
+  position: absolute;
+  margin-left: 150px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 400px;
+  width: 100%;
+  background-color: #ebebeb;
+  border: 2px solid #eceef5;
+  transform: translate(-36.5%);
+  color: #8083a3;
+}
+
+.signIn_btn_ggl:hover {
+  border: 1px solid #362bb2;
+  background-color: #362bb2;
+  color: #fff;
+}
+.signIn_btn_ggl img {
+  position: absolute;
+  margin: -5px 10px 12px -100px;
+  height: 20px;
+  width: 30px;
+  padding-bottom: 2px;
+  justify-content: center;
+}
+.signIn_btn_ggl p {
+  position: absolute;
+  float: right;
+  margin-top: -6px;
+  font-size: 15px;
+  margin-left: 140px;
+}

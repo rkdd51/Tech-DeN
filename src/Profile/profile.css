@@ -1,0 +1,333 @@
+*:root{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.topbar{
+   position: absolute;
+   left: 70px;
+   /* left: 5.1169591vw; */
+    background-color: #ffffff;
+    width: 1180px;
+    height: 70px;
+    width: 94.8830409vw;
+     /* height: 9.1145833%; 70px */
+     /* height: 10.6770833vh;  */
+    box-sizing: border-box;
+    border: 1px solid #ECEEF5 ;
+    border-left: none;
+ 
+
+}
+.settop{
+    display: grid;
+    grid-template-columns: 50px 600px;
+}
+
+.p{
+    margin-top: 29px;
+    margin-left: 34px;
+
+}
+
+
+.topleftbar{
+    margin-top: 20px;
+    margin-left: 722px;
+    display: grid;
+    grid-template-columns: 360px 40px 40px ;
+     width: 450px;
+     height: 30px;
+
+}
+
+.searchbar{
+
+    width: 350px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ECEEF5;
+    border-radius: 5px;
+
+  
+}
+
+.searchbar input {
+    height: 28px;
+    background-color: #ECEEF5 ;
+    width: 348px;
+}
+ .notification{
+   
+    /* width: 30px;
+    height: 30px;
+    background-color: #ECEEF5;
+    border: 1px solid #ECEEF5;
+    border-radius: 5px;
+    text-align: center; */
+
+} 
+
+.notification img{
+    margin-left: 5px;
+    margin-top: -1px;
+    width: 17px;
+    height: 17px;
+}
+.profile-pic{
+    
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: #ECEEF5;
+    border: 1px solid #ECEEF5;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.searchIc{
+    width: 30px;
+    height: 30px;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: #ffffff;
+    width:70px ;
+     height:100vh ;
+    /* width: 5.1169591vw;
+    height: 100vh; */
+    box-sizing: border-box;
+    border: 1px solid #ECEEF5;
+}
+.children{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    width: 94.8830409vw;
+    height: 85vh;
+    box-sizing: border-box;
+}
+.logoTD{
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 28px;
+    margin-top: -1px;
+    margin-left: 25px;
+    color: #362bb2;
+}
+.logoTD:hover{
+    cursor: pointer;
+}
+
+.dashB img{
+    margin-top: 48px;
+    margin-left: 26px;
+    width: 30px;
+    height: 30px;
+}
+.dashB img:hover{
+   cursor: pointer;
+}
+.setting img{
+    margin-left: 26px;
+    margin-top: 40px;
+    width: 30px;
+    height: 30px;
+}
+.setting img{
+    cursor: pointer;
+}
+
+.general{
+    display: grid;
+    grid-template-columns: 375px 805px;
+}
+/*.photo&Name{
+    width: 150px;
+    padding: 2px auto;
+}*/
+
+.leftside{
+    width: 374px ;
+    height: 600px;
+    border-right: 2px solid #ECEEF5;
+
+}
+.avatarProfile{
+    margin-top:38px ;
+    margin-left: 137px;
+    height: 100px;
+    width: 100px;
+    background: #eceef5;
+    border-radius: 5px;
+}
+
+.profileName{
+    /*margin:  16px 145px;*/
+    margin-top: 16px;
+    margin-left: 160px;
+    font-size: 20px;
+    width: 100px;
+    height: 24px;
+
+}
+
+.professionName{
+    margin : 5px auto;
+    margin-left: 155px ;
+    font-size: 12px;
+    color: grey;
+}
+
+.generalInfo-panel{
+display: grid;
+margin: 35px auto;
+width: 270px;
+height: 55px;
+background: #eceef5;
+grid-template-columns: 45px 244px;
+border-radius: 7px;
+cursor: pointer;
+}
+
+
+.security-panel{
+    display: grid;
+    margin: 35px auto;
+    margin-top: -1px;
+    width: 270px;
+    height: 55px;
+    background: #eceef5;
+grid-template-columns: 45px 244px;
+border-radius: 7px;
+cursor: pointer;
+}
+
+.iconss img{
+    margin: 15px 15px;
+    width: 20px;
+    height:20px
+  
+}
+.text-info-panel{
+margin: 5px 40px;
+}
+.panel-name-general{
+color: #7065EF;
+font-size: 14px;
+margin-top: 3px;
+}
+.panel-subname{
+    color:#8181A5;
+    font-size: 12px;
+    margin: 5px auto
+}
+.panel-name-security{
+    color: rgb(12, 11, 11);
+    font-size: 14px;
+    margin-top: 3px;
+    }
+
+.topname{
+        margin-top: 20px;
+        margin-left: 25px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+.detailBox{
+margin-top: 30px;
+margin-left: 20px;
+display: grid;
+grid-template-rows: 80px 80px 80px 80px;
+grid-template-columns: 400px 400px;
+grid-column-gap: 20px;
+}
+.detailField{
+    width: 370px;
+border-bottom: 2px solid #ECEEF5;
+padding-top: 35px;
+padding-left: 5px;
+}
+.subHeader{
+    color:#8181A5 ;
+    font-size: 12px;
+}
+.mainItem{
+    display: grid;
+    grid-template-columns: 350px 50px;
+}
+.fieldValue{
+    margin-top: 10px;
+    font-size: 14px;
+    
+}
+.fieldIcon img{
+    margin-top: -1px;
+    width: 17px;
+    height: 17px;
+}
+
+.panel-name-general-Chpass{
+    color: rgb(12, 11, 11);
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.panel-name-security-Chpass{
+    color: #7065EF;
+font-size: 14px;
+margin-top: 3px;
+}
+
+
+
+.ChangePass{
+    margin-left: 25px;
+    display: grid;
+    grid-template-rows: 90px 80px 80px;
+}
+
+.currentP{
+    margin-top: 10px;
+}
+
+.lockPass{
+    display: grid;
+    grid-template-columns: 340px 25px;
+}
+
+.lockPass img{
+    margin-top: 7px;
+    width: 17px;
+    height: 17px;
+}
+
+.currentP p{
+    height: 16px;
+    margin: 10px 10px;
+}
+.currentP1 input{
+    height: 16px;
+    margin: 10px 10px;
+}
+
+.updateSetting{
+    margin: 150px 80px;    
+}
+
+.updateSetting button{
+ width: 140px;
+ font-size: 16px;
+ background: #362BB2;
+ color: white;
+ /* border-radius: 7px;
+ border-style: solid; */
+ outline: 0px;
+ box-shadow: none;
+ cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}

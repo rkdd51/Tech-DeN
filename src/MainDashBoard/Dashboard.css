@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:black;
+  }
+  
+  .dashboard {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  .searchBar {
+    margin-left: 1200px;
+    margin-right: 20px;
+    width: 240px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+  
+  .dropdown {
+    padding: 4px;
+    color: #362bb2;
+    margin-left: 1580px;
+    margin-top: -67px;
+    color: black;
+  }
+  .modal {
+    margin-top: 167px;
+   
+  }
+  .links{
+    text-decoration: none;
+    margin: 10px 20px;
+    background-color:ivory;
+  }
+
+ 
+  
